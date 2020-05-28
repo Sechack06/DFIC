@@ -1,0 +1,88 @@
+.no-drag {
+    -ms-user-select: none;
+    -moz-user-select: -moz-none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+.hicaption
+{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-image: url("../img/main.jpg");
+    background-size:cover;
+    color: white;
+    text-align: center;
+}
+.pagetitle
+{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.leftitem
+{
+    margin-right: 20px;
+}
+.footer
+{
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.card-img-top {
+    width: 100%;
+    height: 330px;
+    object-fit: cover;
+}
+.navbar {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+.header 
+{
+    padding: 156px 0 100px;
+}
+.section
+{
+    padding: 150px 0;
+}
+.bg-light2
+{
+    background-color: #fafcff;
+}
+.loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+@media all and (max-width: 768px) {
+    .form
+    {
+        width: 90vw;
+    }
+}

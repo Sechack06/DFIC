@@ -1,0 +1,33 @@
+#showcontent
+{
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+.form
+{
+    width: 400px;
+    margin: 0 auto;
+}
+small a
+{
+    color: black;
+}
+.title
+{
+    text-decoration: none;
+    color: black;
+}
+.boardform
+{
+    margin: 0 auto;
+}
+#title
+{
+    position: relative;
+    bottom: 25px;
+}
+#titlecharnum
+{
+    position: relative;
+    bottom: 25px; 
+}
